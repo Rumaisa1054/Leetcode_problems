@@ -23,4 +23,6 @@ class Solution:
         if root == None:
             return 0
         return inorder(root)
-    # in this Question it is a must that we explore the branches only... Supose a tree has only one branch then we return length of that branch + 1 ---- if we start to take 
+    # in this Question it is a must that we explore the branches only... Supose a tree has only one branch then we return length of that branch + 1 ---- if we start to take ... we need to travel till the leave that is a must .. lets say that the root node has one child right only then our anser is the min left of right tree + 1 not 1 which we get from the left
+
+# in maximum depth of binary tree - We need to find the longest  route to the left and that is easily handeled becuase these one child values are tackled there itself
