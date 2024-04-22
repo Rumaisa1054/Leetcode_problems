@@ -5,8 +5,6 @@
 #         self.left = left
 #         self.right = right
 def inorder(root):
-    if root == None:
-        return 0
     if root.left == None and root.right == None:
         return 1
     if root.right == None and root.left != None:
@@ -25,3 +23,4 @@ class Solution:
         if root == None:
             return 0
         return inorder(root)
+    # in this Question it is a must that we explore the branches only... Supose a tree has only one branch then we return length of that branch + 1 ---- if we start to take 
